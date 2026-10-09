@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Thank You | DM Executive Travel</title>
+
+  <meta
+    name="description"
+    content="Thank you for contacting DM Executive Travel. Your private Scotland travel enquiry has been received."
+  >
+
+  <!-- Confirmation page should not appear in Google search results -->
+  <meta name="robots" content="noindex, follow">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main Site Styles -->
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Thank You Page Specific Styles -->
+  <style>
+
+    .thank-you {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      padding: 140px 24px 80px;
+    }
+
+    .thank-you__media {
+      position: absolute;
+      inset: 0;
+    }
+
+    .thank-you__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .thank-you__scrim {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(
+          90deg,
+          rgba(8, 14, 12, 0.96) 0%,
+          rgba(8, 14, 12, 0.84) 45%,
+          rgba(8, 14, 12, 0.50) 100%
+        );
+    }
+
+    .thank-you__content {
+      position: relative;
+      z-index: 2;
+      width: min(100%, 760px);
+      margin-right: auto;
+      margin-left: max(
+        0px,
+        calc((100vw - 1200px) / 2)
+      );
+    }
+
+    .thank-you__line {
+      width: 60px;
+      height: 1px;
+      margin-bottom: 28px;
+      background: var(--gold);
+    }
+
+    .thank-you__kicker {
+      margin: 0 0 18px;
+      color: var(--gold-soft);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .thank-you h1 {
+      max-width: 720px;
+      margin: 0 0 24px;
+      color: #fff;
+      font-family: "Fraunces", serif;
+      font-size: clamp(3rem, 7vw, 6.4rem);
+      font-weight: 300;
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+    }
+
+    .thank-you__lead {
+      max-width: 620px;
+      margin: 0 0 16px;
+      color: rgba(255, 255, 255, 0.84);
+      font-size: clamp(1rem, 1.4vw, 1.15rem);
+      font-weight: 300;
+      line-height: 1.8;
+    }
+
+    .thank-you__note {
+      max-width: 620px;
+      margin: 0 0 38px;
+      color: rgba(255, 255, 255, 0.62);
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .thank-you__note a {
+      color: var(--gold-soft);
+      text-decoration: none;
+    }
+
+    .thank-you__note a:hover {
+      text-decoration: underline;
+    }
+
+    .thank-you__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    @media (max-width: 920px) {
+
+      .thank-you {
+        padding: 120px 24px 70px;
+      }
+
+      .thank-you__content {
+        margin-left: 0;
+      }
+
+      .thank-you__scrim {
+        background:
+          linear-gradient(
+            180deg,
+            rgba(8, 14, 12, 0.80) 0%,
+            rgba(8, 14, 12, 0.94) 100%
+          );
+      }
+
+    }
+
+    @media (max-width: 600px) {
+
+      .thank-you {
+        padding: 110px 20px 60px;
+      }
+
+      .thank-you h1 {
+        font-size: clamp(2.8rem, 14vw, 4.2rem);
+      }
+
+      .thank-you__actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .thank-you__actions .btn {
+        width: 100%;
+        text-align: center;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="grain"></div>
+
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <nav class="nav" id="siteNav">
+
+    <a href="index.html" class="nav__logo">
+
+      <img
+        src="assets/logo-white.webp"
+        alt="DM Executive Travel"
+      >
+
+    </a>
+
+
+    <button
+      class="nav__toggle"
+      id="navToggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="navLinks"
+    >
+      &#9776;
+    </button>
+
+
+    <div class="nav__links" id="navLinks">
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="private-tours.html">
+        Private Tours
+      </a>
+
+
+      <!-- Experiences Dropdown -->
+
+      <div class="nav__dropdown">
+
+        <button
+          class="nav__dropdown-toggle"
+          type="button"
+          aria-expanded="false"
+        >
+          Experiences
+
+          <span
+            class="nav__chevron"
+            aria-hidden="true"
+          >
+            ⌄
+          </span>
+
+        </button>
+
+
+        <div class="nav__dropdown-menu">
+
+          <a href="experiences.html">
+
+            <span>
+              All Experiences
+            </span>
+
+            <small>
+              Discover Scotland your way
+            </small>
+
+          </a>
+
+
+          <a href="whisky.html">
+
+            <span>
+              Whisky
+            </span>
+
+            <small>
+              Private Speyside journeys
+            </small>
+
+          </a>
+
+
+          <a href="golf.html">
+
+            <span>
+              Golf
+            </span>
+
+            <small>
+              Private Scottish golf travel
+            </small>
+
+          </a>
+
+
+          <a href="chauffeur.html">
+
+            <span>
+              Chauffeur
+            </span>
+
+            <small>
+              Luxury private travel
+            </small>
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <a href="concierge.html">
+        Concierge
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a
+        href="about.html#enquiry"
+        class="nav__cta"
+      >
+        Plan your journey
+      </a>
+
+    </div>
+
+  </nav>
+
+
+  <!-- =========================
+       THANK YOU
+  ========================== -->
+
+  <main class="thank-you">
+
+
+    <!-- Background Image -->
+
+    <div class="thank-you__media">
+
+      <img
+        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=85"
+        alt=""
+      >
+
+    </div>
+
+
+    <!-- Dark Overlay -->
+
+    <div class="thank-you__scrim"></div>
+
+
+    <!-- Content -->
+
+    <div class="thank-you__content">
+
+      <div class="thank-you__line"></div>
+
+
+      <p class="thank-you__kicker">
+        Enquiry Received
+      </p>
+
+
+      <h1>
+        Thank you.<br>
+        Your journey starts here.
+      </h1>
+
+
+      <p class="thank-you__lead">
+        Your enquiry has been received by DM Executive Travel.
+        We'll review the details you've shared and get in touch
+        to begin shaping your time in Scotland.
+      </p>
+
+
+      <p class="thank-you__note">
+        If you need to add anything in the meantime, you can email
+        <a href="mailto:info@dmexecutivetravel.com">
+          info@dmexecutivetravel.com
+        </a>
+        or call
+        <a href="tel:+447756297947">
+          +44 7756 297947
+        </a>.
+      </p>
+
+
+      <div class="thank-you__actions">
+
+        <a
+          href="index.html"
+          class="btn btn--gold"
+        >
+          Return home
+        </a>
+
+        <a
+          href="experiences.html"
+          class="btn btn--ghost"
+        >
+          Explore experiences
+        </a>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <!-- =========================
+       SITE JAVASCRIPT
+  ========================== -->
+
+  <script src="assets/site.js"></script>
+
+</body>
+</html>
