@@ -3,166 +3,740 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Executive chauffeur travel across Scotland for airport transfers, corporate travel, events and private journeys arranged around your schedule.">
-  <title>Private Chauffeur Scotland | DM Executive Travel</title>
+
+  <title>Private Chauffeur Scotland | Luxury Chauffeur Service | DM Executive Travel</title>
+
+  <meta
+    name="description"
+    content="Private chauffeur service across Scotland for Inverness Airport transfers, executive travel, private touring and bespoke journeys throughout Moray and the Highlands."
+  >
+
+  <meta name="robots" content="index, follow">
+
+  <link
+    rel="canonical"
+    href="https://www.dmexecutivetravel.com/chauffeur.html"
+  >
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+
+  <meta
+    property="og:title"
+    content="Private Chauffeur Scotland | DM Executive Travel"
+  >
+
+  <meta
+    property="og:description"
+    content="Luxury private chauffeur travel across Scotland for airport transfers, executive travel, private touring and bespoke Scottish journeys."
+  >
+
+  <meta
+    property="og:url"
+    content="https://www.dmexecutivetravel.com/chauffeur.html"
+  >
+
+  <meta
+    property="og:image"
+    content="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=85"
+  >
+
+  <!-- Twitter / Social -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta
+    name="twitter:title"
+    content="Private Chauffeur Scotland | DM Executive Travel"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Private chauffeur service for Inverness Airport transfers, executive travel and bespoke journeys across Scotland."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=85"
+  >
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Private Chauffeur Service Scotland",
+    "url": "https://www.dmexecutivetravel.com/chauffeur.html",
+    "description": "Private chauffeur service for airport transfers, executive travel, private touring and bespoke journeys across Scotland, Moray and the Scottish Highlands.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.dmexecutivetravel.com/#business",
+      "name": "DM Executive Travel",
+      "url": "https://www.dmexecutivetravel.com/",
+      "telephone": "+447756297947",
+      "email": "info@dmexecutivetravel.com"
+    },
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "Scotland"
+      },
+      {
+        "@type": "Place",
+        "name": "Moray"
+      },
+      {
+        "@type": "Place",
+        "name": "Elgin"
+      },
+      {
+        "@type": "Place",
+        "name": "Inverness"
+      },
+      {
+        "@type": "Place",
+        "name": "Scottish Highlands"
+      }
+    ],
+    "serviceType": [
+      "Private Chauffeur Service",
+      "Luxury Chauffeur Travel",
+      "Airport Transfers",
+      "Inverness Airport Transfers",
+      "Executive Chauffeur Travel",
+      "Corporate Travel",
+      "Private Touring"
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
+
   <div class="grain"></div>
 
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
   <nav class="nav" id="siteNav">
-    <a href="index.html" class="nav__logo"><img src="assets/logo-white.webp" alt="DM Executive Travel"></a>
-    <button class="nav__toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+
+    <a href="index.html" class="nav__logo">
+      <img
+        src="assets/logo-white.webp"
+        alt="DM Executive Travel"
+      >
+    </a>
+
+    <button
+      class="nav__toggle"
+      id="navToggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="navLinks"
+    >
+      &#9776;
+    </button>
+
     <div class="nav__links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="whisky.html">Whisky</a>
-      <a href="golf.html">Golf</a>
-      <a href="chauffeur.html" class="current">Chauffeur</a>
-      <a href="about.html">About</a>
-      <a href="about.html#enquiry" class="nav__cta">Plan your journey</a>
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="private-tours.html">
+        Private Tours
+      </a>
+
+
+      <!-- EXPERIENCES DROPDOWN -->
+      <div class="nav__dropdown">
+
+        <button
+          class="nav__dropdown-toggle current"
+          type="button"
+          aria-expanded="false"
+        >
+          Experiences
+          <span class="nav__chevron" aria-hidden="true">⌄</span>
+        </button>
+
+        <div class="nav__dropdown-menu">
+
+          <a href="experiences.html">
+            <span>All Experiences</span>
+            <small>Discover Scotland your way</small>
+          </a>
+
+          <a href="whisky.html">
+            <span>Whisky</span>
+            <small>Private Speyside journeys</small>
+          </a>
+
+          <a href="golf.html">
+            <span>Golf</span>
+            <small>Private Scottish golf travel</small>
+          </a>
+
+          <a
+            href="chauffeur.html"
+            class="current"
+            aria-current="page"
+          >
+            <span>Chauffeur</span>
+            <small>Luxury private travel</small>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <a href="concierge.html">
+        Concierge
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a
+        href="about.html#enquiry"
+        class="nav__cta"
+      >
+        Plan your journey
+      </a>
+
     </div>
+
   </nav>
 
-  <header class="hero" style="min-height: 72vh;">
-    <div class="page-hero__media" style="position:absolute; inset:0;">
-      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2200&q=80" alt="Luxury chauffeur car on a Scottish road" style="animation:kenburns 20s ease-out forwards;">
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <header
+    class="hero"
+    style="min-height: 72vh;"
+  >
+
+    <div
+      class="page-hero__media"
+      style="position:absolute; inset:0;"
+    >
+
+      <img
+        src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2200&q=80"
+        alt="Luxury private chauffeur car travelling through Scotland"
+        style="animation:kenburns 20s ease-out forwards;"
+      >
+
     </div>
+
     <div class="page-hero__scrim"></div>
+
     <div class="page-hero__content">
+
       <div class="page-hero__inner">
-        <p class="page-hero__kicker">Private chauffeur</p>
-        <h1>Every mile moves with intention.</h1>
-        <p class="page-hero__sub">From airport pickups to full-day private touring, we provide discreet, polished travel that lets your time in Scotland unfold as it should.</p>
-        <div style="display:flex; gap:16px; margin-top:38px; flex-wrap:wrap;">
-          <a href="about.html#enquiry" class="btn btn--gold">Book chauffeur service</a>
-          <a href="#experience" class="btn btn--ghost">See the service</a>
+
+        <p class="page-hero__kicker">
+          Private Chauffeur Scotland
+        </p>
+
+        <h1>
+          Private chauffeur travel, wherever Scotland takes you.
+        </h1>
+
+        <p class="page-hero__sub">
+          Discreet, professional chauffeur travel for airport transfers,
+          executive journeys, private touring and bespoke itineraries
+          across Moray, the Highlands and Scotland.
+        </p>
+
+        <div
+          style="display:flex; gap:16px; margin-top:38px; flex-wrap:wrap;"
+        >
+
+          <a
+            href="about.html#enquiry"
+            class="btn btn--gold"
+          >
+            Enquire about chauffeur travel
+          </a>
+
+          <a
+            href="#experience"
+            class="btn btn--ghost"
+          >
+            Explore the service
+          </a>
+
         </div>
+
       </div>
+
     </div>
+
   </header>
 
+
   <main>
-    <section class="intro" id="experience">
+
+
+    <!-- =========================
+         INTRO
+    ========================== -->
+
+    <section
+      class="intro"
+      id="experience"
+    >
+
       <div class="wrap intro__grid">
+
         <div>
-          <p class="kicker">Executive travel, without the fuss</p>
-          <h2>Thoughtful driving, zero friction.</h2>
+
+          <p class="kicker">
+            Luxury Chauffeur Service Scotland
+          </p>
+
+          <h2>
+            More than getting from one place to another.
+          </h2>
+
         </div>
+
         <div>
-          <p class="intro__body">The best chauffeur service is not about the car alone — it is the timing, the route and the way the journey feels. We keep things precise and polished, with local knowledge that makes every transfer smoother and every day easier to enjoy.</p>
-          <p class="intro__body">Whether you are arriving from the airport, moving between meetings or travelling onward across Scotland, we make the road feel part of the experience.</p>
+
+          <p class="intro__body">
+            DM Executive Travel provides private chauffeur services
+            throughout Scotland, combining professional executive travel
+            with the local knowledge and flexibility needed for a
+            seamless journey.
+          </p>
+
+          <p class="intro__body">
+            From Inverness Airport transfers and corporate travel to
+            full-day private touring across Moray and the Scottish
+            Highlands, each journey is arranged around your schedule,
+            destination and preferred pace.
+          </p>
+
+          <p class="intro__body">
+            Whether you need a single private transfer or chauffeur
+            travel across several days, the route, timing and details
+            are considered so you can simply enjoy the journey.
+          </p>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
 
     <section class="why">
+
       <div class="wrap">
+
         <div class="why__list">
+
+
           <div class="why__item">
+
             <span>01</span>
-            <h3>Airport arrivals</h3>
-            <p>Prompt collection, direct routes and smooth handovers for a calm first impression.</p>
+
+            <h3>
+              Airport Transfers
+            </h3>
+
+            <p>
+              Private airport transfers with professional collection
+              and onward chauffeur travel, including journeys to and
+              from Inverness Airport and destinations across Moray and
+              the Highlands.
+            </p>
+
           </div>
+
+
           <div class="why__item">
+
             <span>02</span>
-            <h3>Corporate travel</h3>
-            <p>Private, professional movement across Scotland with punctuality you can trust.</p>
+
+            <h3>
+              Executive Travel
+            </h3>
+
+            <p>
+              Discreet and professional chauffeur travel for business
+              meetings, corporate events and executive journeys
+              throughout Scotland.
+            </p>
+
           </div>
+
+
           <div class="why__item">
+
             <span>03</span>
-            <h3>Private touring</h3>
-            <p>Full-day itineraries designed around your route, your stops and your preferred pace.</p>
+
+            <h3>
+              Private Touring
+            </h3>
+
+            <p>
+              Private chauffeur-led journeys designed around your
+              itinerary, from Highland sightseeing and whisky
+              distilleries to golf courses and bespoke Scottish
+              experiences.
+            </p>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================
+         JOURNEY
+    ========================== -->
 
     <section class="journeys">
+
       <div class="wrap">
+
         <div class="journeys__head">
+
           <div>
-            <p class="kicker" style="color:var(--gold-light);">Typical service</p>
-            <h2>Driven with care, from first touch to final drop.</h2>
+
+            <p
+              class="kicker"
+              style="color:var(--gold-soft);"
+            >
+              Private Chauffeur Service
+            </p>
+
+            <h2>
+              From first collection to final destination.
+            </h2>
+
           </div>
-          <p class="journeys__note">Whether you need a single transfer or a multi-day Scottish route, the detail is handled so you simply arrive.</p>
+
+          <p class="journeys__note">
+            From a single airport transfer to a multi-day private
+            itinerary across Scotland, your chauffeur travel is
+            planned around where you need to be and when you need
+            to be there.
+          </p>
+
         </div>
+
+
         <div class="journeys__track">
+
+
           <div class="jcard">
-            <p class="jcard__day">Arrival</p>
-            <h3>Meet and greet</h3>
+
+            <p class="jcard__day">
+              Arrival
+            </p>
+
+            <h3>
+              Airport &amp; station collection
+            </h3>
+
             <ol>
-              <li><b>Airport or station</b> collection with a calm, direct arrival</li>
-              <li><b>Assistance</b> with luggage and onward routing</li>
+
+              <li>
+                <b>Collection</b>
+                from the airport, station or agreed pickup point
+              </li>
+
+              <li>
+                <b>Luggage assistance</b>
+                and a comfortable start to your journey
+              </li>
+
+              <li>
+                <b>Private transfer</b>
+                directly to your hotel, accommodation or next
+                destination
+              </li>
+
             </ol>
+
           </div>
+
+
           <div class="jcard">
-            <p class="jcard__day">Day route</p>
-            <h3>Private touring</h3>
+
+            <p class="jcard__day">
+              Your Day
+            </p>
+
+            <h3>
+              Executive travel &amp; private touring
+            </h3>
+
             <ol>
-              <li><b>Flexible timing</b> around meetings, distilleries or golf rounds</li>
-              <li><b>Local knowledge</b> on the best routes and scenic alternatives</li>
+
+              <li>
+                <b>Flexible timing</b>
+                around meetings, golf rounds, distillery visits
+                or your private itinerary
+              </li>
+
+              <li>
+                <b>Local knowledge</b>
+                for routes throughout Moray, Speyside and the
+                Scottish Highlands
+              </li>
+
+              <li>
+                <b>Private travel</b>
+                shaped around your plans rather than a fixed route
+              </li>
+
             </ol>
+
           </div>
+
+
           <div class="jcard">
-            <p class="jcard__day">Departure</p>
-            <h3>Back in good time</h3>
+
+            <p class="jcard__day">
+              Onward
+            </p>
+
+            <h3>
+              Wherever the journey goes next
+            </h3>
+
             <ol>
-              <li><b>Return transfers</b> scheduled to your departure window</li>
-              <li><b>Quiet confidence</b> from start to finish</li>
+
+              <li>
+                <b>Return transfers</b>
+                arranged around your schedule
+              </li>
+
+              <li>
+                <b>Onward travel</b>
+                to hotels, airports, events and destinations
+                throughout Scotland
+              </li>
+
+              <li>
+                <b>Multi-day travel</b>
+                available for longer private Scottish itineraries
+              </li>
+
             </ol>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================
+         CTA
+    ========================== -->
 
     <section class="cta-band">
-      <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2000&q=80" alt="Executive black car on a luxury road trip">
+
+      <img
+        src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2000&q=80"
+        alt="Luxury executive vehicle for private chauffeur travel in Scotland"
+      >
+
       <div class="cta-band__content">
-        <p class="kicker">Let’s plan the route</p>
-        <h2>Tell us where you need to be — and when.</h2>
-        <p>We’ll build a private travel plan that keeps every mile smooth, polished and completely aligned with your day.</p>
-        <a href="about.html#enquiry" class="btn btn--gold">Plan your journey</a>
+
+        <p class="kicker">
+          Your Private Journey
+        </p>
+
+        <h2>
+          Tell us where you need to be — and when.
+        </h2>
+
+        <p>
+          From Inverness Airport and executive travel to private
+          Highland touring and longer journeys across Scotland,
+          tell us your dates, collection point and destination
+          and we'll help shape the journey around you.
+        </p>
+
+        <a
+          href="about.html#enquiry"
+          class="btn btn--gold"
+        >
+          Plan your chauffeur journey
+        </a>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
   <footer>
+
     <div class="wrap">
+
       <div class="footer__top">
+
+
         <div class="footer__logo">
-          <img src="assets/logo-white.webp" alt="DM Executive Travel">
-          <p class="footer__tag">Private Scottish travel — chauffeur, whisky and golf journeys planned around you.</p>
+
+          <img
+            src="assets/logo-white.webp"
+            alt="DM Executive Travel"
+          >
+
+          <p class="footer__tag">
+            Bespoke private tours, luxury chauffeur travel, whisky,
+            golf and exclusive experiences across Scotland.
+          </p>
+
         </div>
+
+
         <div class="footer__cols">
+
+
           <div class="footer__col">
-            <h4>Experiences</h4>
-            <a href="whisky.html">Whisky</a>
-            <a href="golf.html">Golf</a>
-            <a href="chauffeur.html">Chauffeur</a>
+
+            <h4>
+              Explore Scotland
+            </h4>
+
+            <a href="private-tours.html">
+              Private Tours
+            </a>
+
+            <a href="experiences.html">
+              Private Experiences
+            </a>
+
+            <a href="concierge.html">
+              Concierge
+            </a>
+
           </div>
+
+
           <div class="footer__col">
-            <h4>Studio</h4>
-            <a href="about.html">About</a>
-            <a href="about.html#enquiry">Plan your journey</a>
+
+            <h4>
+              Travel &amp; Experiences
+            </h4>
+
+            <a href="whisky.html">
+              Whisky
+            </a>
+
+            <a href="golf.html">
+              Golf
+            </a>
+
+            <a
+              href="chauffeur.html"
+              aria-current="page"
+            >
+              Chauffeur
+            </a>
+
           </div>
+
+
           <div class="footer__col">
-            <h4>Contact</h4>
-            <p>+44 7756 297947</p>
-            <p>info@dmexecutivetravel.com</p>
-            <p>Elgin, Moray, UK</p>
+
+            <h4>
+              DM Executive Travel
+            </h4>
+
+            <a href="about.html">
+              About
+            </a>
+
+            <a href="about.html#enquiry">
+              Plan your journey
+            </a>
+
           </div>
+
+
+          <div class="footer__col">
+
+            <h4>
+              Contact
+            </h4>
+
+            <p>
+              +44 7756 297947
+            </p>
+
+            <p>
+              info@dmexecutivetravel.com
+            </p>
+
+            <p>
+              Elgin, Moray, Scotland
+            </p>
+
+          </div>
+
         </div>
+
       </div>
+
+
       <div class="footer__bottom">
-        <span>&copy; 2026 DM Executive Travel. All rights reserved.</span>
-        <span>Privacy Policy &nbsp;·&nbsp; Terms &amp; Conditions</span>
+
+        <span>
+          &copy; 2026 DM Executive Travel. All rights reserved.
+        </span>
+
+        <span>
+          Privacy Policy &nbsp;·&nbsp; Terms &amp; Conditions
+        </span>
+
       </div>
+
     </div>
+
   </footer>
 
+
   <script src="assets/site.js"></script>
+
 </body>
 </html>

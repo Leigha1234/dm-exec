@@ -3,196 +3,866 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn more about DM Executive Travel and tell us what kind of whisky, golf or private Scotland journey you’d like to plan.">
-  <title>About + Plan Your Journey | DM Executive Travel</title>
+
+  <title>About DM Executive Travel | Luxury Private Travel Scotland</title>
+
+  <meta
+    name="description"
+    content="DM Executive Travel provides bespoke private tours, luxury chauffeur travel, whisky and golf journeys, concierge services and exclusive experiences across Scotland."
+  >
+
+  <meta name="robots" content="index, follow">
+
+  <link
+    rel="canonical"
+    href="https://www.dmexecutivetravel.com/about.html"
+  >
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+
+  <meta
+    property="og:title"
+    content="About DM Executive Travel | Luxury Private Travel Scotland"
+  >
+
+  <meta
+    property="og:description"
+    content="Discover DM Executive Travel, creating bespoke private journeys, chauffeur travel and exclusive experiences across Moray, Speyside, the Highlands and Scotland."
+  >
+
+  <meta
+    property="og:url"
+    content="https://www.dmexecutivetravel.com/about.html"
+  >
+
+  <meta
+    property="og:image"
+    content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85"
+  >
+
+  <!-- Twitter / Social -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta
+    name="twitter:title"
+    content="About DM Executive Travel | Luxury Private Travel Scotland"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Bespoke private travel, chauffeur journeys and exclusive Scottish experiences from DM Executive Travel."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85"
+  >
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About DM Executive Travel",
+    "url": "https://www.dmexecutivetravel.com/about.html",
+    "description": "About DM Executive Travel, a private travel and chauffeur business based in Elgin, Moray, creating bespoke journeys across Scotland.",
+    "mainEntity": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.dmexecutivetravel.com/#business",
+      "name": "DM Executive Travel",
+      "url": "https://www.dmexecutivetravel.com/",
+      "telephone": "+447756297947",
+      "email": "info@dmexecutivetravel.com",
+      "description": "Bespoke private tours, luxury chauffeur travel, whisky and golf journeys, concierge services and exclusive experiences across Scotland.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Elgin",
+        "addressRegion": "Moray",
+        "addressCountry": "GB"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Scotland"
+        },
+        {
+          "@type": "Place",
+          "name": "Moray"
+        },
+        {
+          "@type": "Place",
+          "name": "Speyside"
+        },
+        {
+          "@type": "Place",
+          "name": "Scottish Highlands"
+        }
+      ]
+    }
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
+
   <div class="grain"></div>
 
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
   <nav class="nav" id="siteNav">
-    <a href="index.html" class="nav__logo"><img src="assets/logo-white.webp" alt="DM Executive Travel"></a>
-    <button class="nav__toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+
+    <a href="index.html" class="nav__logo">
+      <img
+        src="assets/logo-white.webp"
+        alt="DM Executive Travel"
+      >
+    </a>
+
+    <button
+      class="nav__toggle"
+      id="navToggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="navLinks"
+    >
+      &#9776;
+    </button>
+
     <div class="nav__links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="whisky.html">Whisky</a>
-      <a href="golf.html">Golf</a>
-      <a href="chauffeur.html">Chauffeur</a>
-      <a href="about.html" class="current">About</a>
-      <a href="about.html#enquiry" class="nav__cta">Plan your journey</a>
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="private-tours.html">
+        Private Tours
+      </a>
+
+
+      <!-- EXPERIENCES DROPDOWN -->
+      <div class="nav__dropdown">
+
+        <button
+          class="nav__dropdown-toggle"
+          type="button"
+          aria-expanded="false"
+        >
+          Experiences
+          <span class="nav__chevron" aria-hidden="true">⌄</span>
+        </button>
+
+        <div class="nav__dropdown-menu">
+
+          <a href="experiences.html">
+            <span>All Experiences</span>
+            <small>Discover Scotland your way</small>
+          </a>
+
+          <a href="whisky.html">
+            <span>Whisky</span>
+            <small>Private Speyside journeys</small>
+          </a>
+
+          <a href="golf.html">
+            <span>Golf</span>
+            <small>Private Scottish golf travel</small>
+          </a>
+
+          <a href="chauffeur.html">
+            <span>Chauffeur</span>
+            <small>Luxury private travel</small>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <a href="concierge.html">
+        Concierge
+      </a>
+
+      <a href="about.html" class="current" aria-current="page">
+        About
+      </a>
+
+      <a
+        href="#enquiry"
+        class="nav__cta"
+      >
+        Plan your journey
+      </a>
+
     </div>
+
   </nav>
 
-  <header class="hero" style="min-height: 72vh;">
-    <div class="page-hero__media" style="position:absolute; inset:0;">
-      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=80" alt="Scottish countryside and road in the Highlands" style="animation:kenburns 20s ease-out forwards;">
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <header
+    class="hero"
+    style="min-height: 72vh;"
+  >
+
+    <div
+      class="page-hero__media"
+      style="position:absolute; inset:0;"
+    >
+
+      <img
+        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=80"
+        alt="Scottish Highland landscape on a bespoke private journey through Scotland"
+        style="animation:kenburns 20s ease-out forwards;"
+      >
+
     </div>
+
     <div class="page-hero__scrim"></div>
+
     <div class="page-hero__content">
+
       <div class="page-hero__inner">
-        <p class="page-hero__kicker">About DM</p>
-        <h1>Private travel, built around people, not schedules.</h1>
-        <p class="page-hero__sub">DM Executive Travel began with a simple idea: Scottish travel should feel considered, relaxed, and personal — not like a fixed route copied from a brochure.</p>
-        <div style="display:flex; gap:16px; margin-top:38px; flex-wrap:wrap;">
-          <a href="#enquiry" class="btn btn--gold">Enquire</a>
-          <a href="#story" class="btn btn--ghost">Our story</a>
+
+        <p class="page-hero__kicker">
+          About DM Executive Travel
+        </p>
+
+        <h1>
+          Private Scottish travel, built around you.
+        </h1>
+
+        <p class="page-hero__sub">
+          Based in Elgin, Moray, DM Executive Travel creates bespoke
+          private journeys across Scotland — from luxury chauffeur
+          travel and whisky experiences to golf trips, private touring
+          and carefully considered Scottish experiences.
+        </p>
+
+        <div
+          style="display:flex; gap:16px; margin-top:38px; flex-wrap:wrap;"
+        >
+
+          <a
+            href="#enquiry"
+            class="btn btn--gold"
+          >
+            Plan your journey
+          </a>
+
+          <a
+            href="#story"
+            class="btn btn--ghost"
+          >
+            Discover DM
+          </a>
+
         </div>
+
       </div>
+
     </div>
+
   </header>
 
+
   <main>
-    <section class="intro" id="story">
+
+
+    <!-- =========================
+         STORY
+    ========================== -->
+
+    <section
+      class="intro"
+      id="story"
+    >
+
       <div class="wrap intro__grid">
+
         <div>
-          <p class="kicker">Why DM exists</p>
-          <h2>We plan the trip around the experience.</h2>
+
+          <p class="kicker">
+            Private Travel From Moray
+          </p>
+
+          <h2>
+            The journey should feel as considered as the destination.
+          </h2>
+
         </div>
+
         <div>
-          <p class="intro__body">The focus was always the road itself — a private chauffeur service built for people who wanted the Scottish countryside to feel as considered as the rest of their trip. It quickly expanded into whisky days, golf travel, and fully bespoke touring across the Highlands and beyond.</p>
-          <p class="intro__body">Now the work is the same: listen first, plan carefully, and make sure the whole day feels unhurried, tailored and memorable.</p>
+
+          <p class="intro__body">
+            DM Executive Travel is based in Elgin, Moray, with Speyside
+            and the Scottish Highlands on the doorstep. The business
+            was built around a simple idea: private travel should feel
+            personal, considered and effortless rather than like a
+            fixed itinerary taken from a brochure.
+          </p>
+
+          <p class="intro__body">
+            What began with private chauffeur travel naturally extends
+            into whisky journeys, golf travel, bespoke Scottish tours
+            and experiences shaped around the people taking them.
+          </p>
+
+          <p class="intro__body">
+            Whether the journey begins at an airport, hotel, golf course
+            or somewhere in the heart of Speyside, the approach remains
+            the same: listen first, understand what matters to you and
+            shape the route around the experience you want to have.
+          </p>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================
+         APPROACH
+    ========================== -->
 
     <section class="why">
+
       <div class="wrap">
+
         <div class="why__head">
-          <p class="kicker">What matters</p>
-          <h2>Local knowledge. Quiet detail. Real care.</h2>
+
+          <p class="kicker">
+            The DM Approach
+          </p>
+
+          <h2>
+            Local knowledge. Personal service. Every detail considered.
+          </h2>
+
         </div>
+
+
         <div class="why__list">
+
           <div class="why__item">
+
             <span>01</span>
-            <h3>Local</h3>
-            <p>We know the roads, routes and timings that make a journey feel natural rather than forced.</p>
+
+            <h3>
+              Local
+            </h3>
+
+            <p>
+              Based in Moray, with local knowledge of Speyside, the
+              Highlands and the routes that connect some of Scotland's
+              most memorable places.
+            </p>
+
           </div>
+
+
           <div class="why__item">
+
             <span>02</span>
-            <h3>Personal</h3>
-            <p>Every trip starts with your preferences and not a template from a brochure or a travel desk.</p>
+
+            <h3>
+              Personal
+            </h3>
+
+            <p>
+              No two journeys need to look the same. Your dates,
+              interests, destinations and preferred pace shape the
+              experience from the beginning.
+            </p>
+
           </div>
+
+
           <div class="why__item">
+
             <span>03</span>
-            <h3>Considered</h3>
-            <p>A polished experience is built from the quiet details — the right route, the right stop, the right pace.</p>
+
+            <h3>
+              Considered
+            </h3>
+
+            <p>
+              From collection times and routes to the smaller details
+              along the way, everything is approached with the aim of
+              making your time in Scotland feel effortless.
+            </p>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="journeys" id="enquiry">
+
+    <!-- =========================
+         ENQUIRY
+    ========================== -->
+
+    <section
+      class="journeys"
+      id="enquiry"
+    >
+
       <div class="wrap">
+
         <div class="journeys__head">
+
           <div>
-            <p class="kicker" style="color:var(--gold-light);">Enquire</p>
-            <h2>Tell us what you have in mind.</h2>
-          </div>
-          <p class="journeys__note">The first conversation is about the feel of the trip — then we build the route around it.</p>
-        </div>
-        <div class="enquiry-card">
-          <div class="enquiry-card__meta">
-            <p class="jcard__day">Contact</p>
-            <h3>Start with a brief</h3>
-            <ul>
-              <li><b>Email</b> info@dmexecutivetravel.com</li>
-              <li><b>Call</b> +44 7756 297947</li>
-              <li><b>Base</b> Elgin, Moray, UK</li>
-            </ul>
+
+            <p
+              class="kicker"
+              style="color:var(--gold-soft);"
+            >
+              Plan Your Journey
+            </p>
+
+            <h2>
+              Tell us how you want to experience Scotland.
+            </h2>
+
           </div>
 
-          <form class="contact-form" action="#" method="post">
+          <p class="journeys__note">
+            You do not need to have every detail planned. Tell us
+            what you know so far and the kind of experience you have
+            in mind, and we can begin shaping the journey from there.
+          </p>
+
+        </div>
+
+
+        <div class="enquiry-card">
+
+          <div class="enquiry-card__meta">
+
+            <p class="jcard__day">
+              Contact
+            </p>
+
+            <h3>
+              Start with a conversation
+            </h3>
+
+            <ul>
+
+              <li>
+                <b>Email</b>
+                info@dmexecutivetravel.com
+              </li>
+
+              <li>
+                <b>Call</b>
+                +44 7756 297947
+              </li>
+
+              <li>
+                <b>Based</b>
+                Elgin, Moray, Scotland
+              </li>
+
+              <li>
+                <b>Travel</b>
+                Across Scotland
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <!--
+            IMPORTANT:
+            This form is currently visual only.
+            action="#" will NOT send the enquiry anywhere.
+          -->
+
+          <form
+            class="contact-form"
+            action="#"
+            method="post"
+          >
+
             <div class="form-grid">
+
+
               <label>
-                <span>Name</span>
-                <input type="text" name="name" placeholder="Your name">
+
+                <span>
+                  Name
+                </span>
+
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  autocomplete="name"
+                  required
+                >
+
               </label>
+
+
               <label>
-                <span>Email</span>
-                <input type="email" name="email" placeholder="you@example.com">
+
+                <span>
+                  Email
+                </span>
+
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  required
+                >
+
               </label>
+
+
               <label>
-                <span>Interested in</span>
-                <select name="interest">
-                  <option>Whisky experience</option>
-                  <option>Golf trip</option>
-                  <option>Private chauffeur</option>
-                  <option>Bespoke Scotland tour</option>
+
+                <span>
+                  Interested in
+                </span>
+
+                <select
+                  name="interest"
+                  required
+                >
+
+                  <option
+                    value=""
+                    selected
+                    disabled
+                  >
+                    Choose an experience
+                  </option>
+
+                  <option value="private-tour">
+                    Bespoke private tour
+                  </option>
+
+                  <option value="concierge">
+                    Concierge service
+                  </option>
+
+                  <option value="exclusive-experience">
+                    Exclusive Scottish experience
+                  </option>
+
+                  <option value="whisky">
+                    Private whisky experience
+                  </option>
+
+                  <option value="golf">
+                    Private golf journey
+                  </option>
+
+                  <option value="chauffeur">
+                    Private chauffeur
+                  </option>
+
+                  <option value="airport-transfer">
+                    Airport transfer
+                  </option>
+
+                  <option value="corporate">
+                    Executive / corporate travel
+                  </option>
+
+                  <option value="multi-day">
+                    Multi-day Scotland journey
+                  </option>
+
+                  <option value="other">
+                    Something else
+                  </option>
+
                 </select>
+
               </label>
+
+
               <label>
-                <span>Roughly when</span>
-                <input type="text" name="dates" placeholder="e.g. September 2026">
+
+                <span>
+                  Roughly when
+                </span>
+
+                <input
+                  type="text"
+                  name="dates"
+                  placeholder="e.g. September 2026"
+                >
+
               </label>
+
+
               <label>
-                <span>How many people</span>
-                <input type="text" name="partySize" placeholder="e.g. 2 adults">
+
+                <span>
+                  How many people
+                </span>
+
+                <input
+                  type="text"
+                  name="partySize"
+                  placeholder="e.g. 2 adults"
+                >
+
               </label>
+
+
               <label>
-                <span>Where are you staying</span>
-                <input type="text" name="stayLocation" placeholder="Town, city or hotel">
+
+                <span>
+                  Where are you staying?
+                </span>
+
+                <input
+                  type="text"
+                  name="stayLocation"
+                  placeholder="Town, city or hotel"
+                >
+
               </label>
+
             </div>
 
+
             <label>
-              <span>What would you like to do</span>
-              <textarea name="message" rows="5" placeholder="Tell us about the sort of trip you’d like, the places you want to visit and anything you’d especially like to include."></textarea>
+
+              <span>
+                What would you like to experience?
+              </span>
+
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Tell us about the journey you have in mind, the places you would like to visit and anything you would especially like us to consider."
+                required
+              ></textarea>
+
             </label>
 
-            <button type="submit" class="btn btn--gold">Send enquiry</button>
+
+            <button
+              type="submit"
+              class="btn btn--gold"
+            >
+              Send your enquiry
+            </button>
+
           </form>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- =========================
+         CTA
+    ========================== -->
 
     <section class="cta-band">
-      <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=2000&q=80" alt="Scottish landscape with mountains and valley">
+
+      <img
+        src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=2000&q=80"
+        alt="Scottish Highlands landscape on a bespoke private tour of Scotland"
+      >
+
       <div class="cta-band__content">
-        <p class="kicker">Plan your journey</p>
-        <h2>Let’s design a Scottish trip with the right rhythm.</h2>
-        <p>A short first step is all we need to begin — the finer details can follow once the plan is underway.</p>
-        <a href="mailto:info@dmexecutivetravel.com" class="btn btn--gold">Start the enquiry</a>
+
+        <p class="kicker">
+          Bespoke Scotland
+        </p>
+
+        <h2>
+          Your Scotland. Your pace. Your journey.
+        </h2>
+
+        <p>
+          From private chauffeur travel and Speyside whisky journeys
+          to golf, concierge services and exclusive Scottish
+          experiences, it starts with a conversation about what
+          you want from your time here.
+        </p>
+
+        <a
+          href="mailto:info@dmexecutivetravel.com"
+          class="btn btn--gold"
+        >
+          Start the conversation
+        </a>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
   <footer>
+
     <div class="wrap">
+
       <div class="footer__top">
+
+
         <div class="footer__logo">
-          <img src="assets/logo-white.webp" alt="DM Executive Travel">
-          <p class="footer__tag">Private Scottish travel — chauffeur, whisky and golf journeys planned around you.</p>
+
+          <img
+            src="assets/logo-white.webp"
+            alt="DM Executive Travel"
+          >
+
+          <p class="footer__tag">
+            Bespoke private tours, luxury chauffeur travel, whisky,
+            golf and exclusive experiences across Scotland.
+          </p>
+
         </div>
+
+
         <div class="footer__cols">
+
+
           <div class="footer__col">
-            <h4>Experiences</h4>
-            <a href="whisky.html">Whisky</a>
-            <a href="golf.html">Golf</a>
-            <a href="chauffeur.html">Chauffeur</a>
+
+            <h4>
+              Explore Scotland
+            </h4>
+
+            <a href="private-tours.html">
+              Private Tours
+            </a>
+
+            <a href="experiences.html">
+              Private Experiences
+            </a>
+
+            <a href="concierge.html">
+              Concierge
+            </a>
+
           </div>
+
+
           <div class="footer__col">
-            <h4>Studio</h4>
-            <a href="about.html">About</a>
-            <a href="about.html#enquiry">Plan your journey</a>
+
+            <h4>
+              Travel &amp; Experiences
+            </h4>
+
+            <a href="whisky.html">
+              Whisky
+            </a>
+
+            <a href="golf.html">
+              Golf
+            </a>
+
+            <a href="chauffeur.html">
+              Chauffeur
+            </a>
+
           </div>
+
+
           <div class="footer__col">
-            <h4>Contact</h4>
-            <p>+44 7756 297947</p>
-            <p>info@dmexecutivetravel.com</p>
-            <p>Elgin, Moray, UK</p>
+
+            <h4>
+              DM Executive Travel
+            </h4>
+
+            <a
+              href="about.html"
+              aria-current="page"
+            >
+              About
+            </a>
+
+            <a href="#enquiry">
+              Plan your journey
+            </a>
+
           </div>
+
+
+          <div class="footer__col">
+
+            <h4>
+              Contact
+            </h4>
+
+            <p>
+              +44 7756 297947
+            </p>
+
+            <p>
+              info@dmexecutivetravel.com
+            </p>
+
+            <p>
+              Elgin, Moray, Scotland
+            </p>
+
+          </div>
+
         </div>
+
       </div>
+
+
       <div class="footer__bottom">
-        <span>&copy; 2026 DM Executive Travel. All rights reserved.</span>
-        <span>Privacy Policy &nbsp;·&nbsp; Terms &amp; Conditions</span>
+
+        <span>
+          &copy; 2026 DM Executive Travel. All rights reserved.
+        </span>
+
+        <span>
+          Privacy Policy &nbsp;·&nbsp; Terms &amp; Conditions
+        </span>
+
       </div>
+
     </div>
+
   </footer>
 
+
   <script src="assets/site.js"></script>
+
 </body>
 </html>
