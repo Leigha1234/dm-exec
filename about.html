@@ -118,7 +118,6 @@
 
   <div class="grain"></div>
 
-
   <!-- =========================
        NAVIGATION
   ========================== -->
@@ -152,7 +151,6 @@
       <a href="private-tours.html">
         Private Tours
       </a>
-
 
       <!-- EXPERIENCES DROPDOWN -->
       <div class="nav__dropdown">
@@ -192,7 +190,6 @@
 
       </div>
 
-
       <a href="concierge.html">
         Concierge
       </a>
@@ -201,17 +198,13 @@
         About
       </a>
 
-      <a
-        href="#enquiry"
-        class="nav__cta"
-      >
+      <a href="#enquiry" class="nav__cta">
         Plan your journey
       </a>
 
     </div>
 
   </nav>
-
 
   <!-- =========================
        HERO
@@ -260,17 +253,11 @@
           style="display:flex; gap:16px; margin-top:38px; flex-wrap:wrap;"
         >
 
-          <a
-            href="#enquiry"
-            class="btn btn--gold"
-          >
+          <a href="#enquiry" class="btn btn--gold">
             Plan your journey
           </a>
 
-          <a
-            href="#story"
-            class="btn btn--ghost"
-          >
+          <a href="#story" class="btn btn--ghost">
             Discover DM
           </a>
 
@@ -282,18 +269,13 @@
 
   </header>
 
-
   <main>
-
 
     <!-- =========================
          STORY
     ========================== -->
 
-    <section
-      class="intro"
-      id="story"
-    >
+    <section class="intro" id="story">
 
       <div class="wrap intro__grid">
 
@@ -338,7 +320,6 @@
 
     </section>
 
-
     <!-- =========================
          APPROACH
     ========================== -->
@@ -359,16 +340,13 @@
 
         </div>
 
-
         <div class="why__list">
 
           <div class="why__item">
 
             <span>01</span>
 
-            <h3>
-              Local
-            </h3>
+            <h3>Local</h3>
 
             <p>
               Based in Moray, with local knowledge of Speyside, the
@@ -378,14 +356,11 @@
 
           </div>
 
-
           <div class="why__item">
 
             <span>02</span>
 
-            <h3>
-              Personal
-            </h3>
+            <h3>Personal</h3>
 
             <p>
               No two journeys need to look the same. Your dates,
@@ -395,14 +370,11 @@
 
           </div>
 
-
           <div class="why__item">
 
             <span>03</span>
 
-            <h3>
-              Considered
-            </h3>
+            <h3>Considered</h3>
 
             <p>
               From collection times and routes to the smaller details
@@ -418,15 +390,11 @@
 
     </section>
 
-
     <!-- =========================
          ENQUIRY
     ========================== -->
 
-    <section
-      class="journeys"
-      id="enquiry"
-    >
+    <section class="journeys" id="enquiry">
 
       <div class="wrap">
 
@@ -455,7 +423,6 @@
 
         </div>
 
-
         <div class="enquiry-card">
 
           <div class="enquiry-card__meta">
@@ -472,12 +439,16 @@
 
               <li>
                 <b>Email</b>
-                info@dmexecutivetravel.com
+                <a href="mailto:info@dmexecutivetravel.com">
+                  info@dmexecutivetravel.com
+                </a>
               </li>
 
               <li>
                 <b>Call</b>
-                +44 7756 297947
+                <a href="tel:+447756297947">
+                  +44 7756 297947
+                </a>
               </li>
 
               <li>
@@ -494,61 +465,86 @@
 
           </div>
 
+          <!-- =========================
+               WORKING ENQUIRY FORM
 
-          <!--
-            IMPORTANT:
-            This form is currently visual only.
-            action="#" will NOT send the enquiry anywhere.
-          -->
+               TEST RECIPIENT:
+               theorganisedtypes@gmail.com
+
+               Before launch, change the
+               recipient to Daniel's email.
+
+               FormSubmit requires the
+               recipient to activate the
+               form after the first submission.
+          ========================== -->
 
           <form
             class="contact-form"
-            action="#"
-            method="post"
+            action="https://formsubmit.co/theorganisedtypes@gmail.com"
+            method="POST"
+            accept-charset="UTF-8"
           >
+
+            <!-- FormSubmit configuration -->
+
+            <input
+              type="hidden"
+              name="_subject"
+              value="DM Executive Travel - New Website Enquiry (TEST)"
+            >
+
+            <input
+              type="hidden"
+              name="_template"
+              value="table"
+            >
+
+            <!-- Keep spam protection enabled -->
+            <input
+              type="text"
+              name="_honey"
+              style="display:none"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            >
 
             <div class="form-grid">
 
-
               <label>
 
-                <span>
-                  Name
-                </span>
+                <span>Name</span>
 
                 <input
                   type="text"
                   name="name"
                   placeholder="Your name"
                   autocomplete="name"
+                  maxlength="120"
                   required
                 >
 
               </label>
 
-
               <label>
 
-                <span>
-                  Email
-                </span>
+                <span>Email</span>
 
                 <input
                   type="email"
                   name="email"
                   placeholder="you@example.com"
                   autocomplete="email"
+                  maxlength="254"
                   required
                 >
 
               </label>
 
-
               <label>
 
-                <span>
-                  Interested in
-                </span>
+                <span>Interested in</span>
 
                 <select
                   name="interest"
@@ -563,43 +559,43 @@
                     Choose an experience
                   </option>
 
-                  <option value="private-tour">
+                  <option value="Bespoke private tour">
                     Bespoke private tour
                   </option>
 
-                  <option value="concierge">
+                  <option value="Concierge service">
                     Concierge service
                   </option>
 
-                  <option value="exclusive-experience">
+                  <option value="Exclusive Scottish experience">
                     Exclusive Scottish experience
                   </option>
 
-                  <option value="whisky">
+                  <option value="Private whisky experience">
                     Private whisky experience
                   </option>
 
-                  <option value="golf">
+                  <option value="Private golf journey">
                     Private golf journey
                   </option>
 
-                  <option value="chauffeur">
+                  <option value="Private chauffeur">
                     Private chauffeur
                   </option>
 
-                  <option value="airport-transfer">
+                  <option value="Airport transfer">
                     Airport transfer
                   </option>
 
-                  <option value="corporate">
+                  <option value="Executive / corporate travel">
                     Executive / corporate travel
                   </option>
 
-                  <option value="multi-day">
+                  <option value="Multi-day Scotland journey">
                     Multi-day Scotland journey
                   </option>
 
-                  <option value="other">
+                  <option value="Something else">
                     Something else
                   </option>
 
@@ -607,53 +603,46 @@
 
               </label>
 
-
               <label>
 
-                <span>
-                  Roughly when
-                </span>
+                <span>Roughly when</span>
 
                 <input
                   type="text"
                   name="dates"
-                  placeholder="e.g. September 2026"
+                  placeholder="e.g. September 2027"
+                  maxlength="150"
                 >
 
               </label>
 
-
               <label>
 
-                <span>
-                  How many people
-                </span>
+                <span>How many people</span>
 
                 <input
                   type="text"
                   name="partySize"
                   placeholder="e.g. 2 adults"
+                  maxlength="100"
                 >
 
               </label>
 
-
               <label>
 
-                <span>
-                  Where are you staying?
-                </span>
+                <span>Where are you staying?</span>
 
                 <input
                   type="text"
                   name="stayLocation"
                   placeholder="Town, city or hotel"
+                  maxlength="200"
                 >
 
               </label>
 
             </div>
-
 
             <label>
 
@@ -664,12 +653,12 @@
               <textarea
                 name="message"
                 rows="5"
+                maxlength="5000"
                 placeholder="Tell us about the journey you have in mind, the places you would like to visit and anything you would especially like us to consider."
                 required
               ></textarea>
 
             </label>
-
 
             <button
               type="submit"
@@ -685,7 +674,6 @@
       </div>
 
     </section>
-
 
     <!-- =========================
          CTA
@@ -728,7 +716,6 @@
 
   </main>
 
-
   <!-- =========================
        FOOTER
   ========================== -->
@@ -738,7 +725,6 @@
     <div class="wrap">
 
       <div class="footer__top">
-
 
         <div class="footer__logo">
 
@@ -754,15 +740,11 @@
 
         </div>
 
-
         <div class="footer__cols">
-
 
           <div class="footer__col">
 
-            <h4>
-              Explore Scotland
-            </h4>
+            <h4>Explore Scotland</h4>
 
             <a href="private-tours.html">
               Private Tours
@@ -778,12 +760,9 @@
 
           </div>
 
-
           <div class="footer__col">
 
-            <h4>
-              Travel &amp; Experiences
-            </h4>
+            <h4>Travel &amp; Experiences</h4>
 
             <a href="whisky.html">
               Whisky
@@ -799,12 +778,9 @@
 
           </div>
 
-
           <div class="footer__col">
 
-            <h4>
-              DM Executive Travel
-            </h4>
+            <h4>DM Executive Travel</h4>
 
             <a
               href="about.html"
@@ -819,19 +795,20 @@
 
           </div>
 
-
           <div class="footer__col">
 
-            <h4>
-              Contact
-            </h4>
+            <h4>Contact</h4>
 
             <p>
-              +44 7756 297947
+              <a href="tel:+447756297947">
+                +44 7756 297947
+              </a>
             </p>
 
             <p>
-              info@dmexecutivetravel.com
+              <a href="mailto:info@dmexecutivetravel.com">
+                info@dmexecutivetravel.com
+              </a>
             </p>
 
             <p>
@@ -843,7 +820,6 @@
         </div>
 
       </div>
-
 
       <div class="footer__bottom">
 
@@ -860,7 +836,6 @@
     </div>
 
   </footer>
-
 
   <script src="assets/site.js"></script>
 
